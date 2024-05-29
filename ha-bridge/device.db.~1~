@@ -1,0 +1,530 @@
+[{
+  "name" : "Panel Lights",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/panel_lights.pl 126 100\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/panel_lights.pl 126 0\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/panel_lights.pl 126 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "1662",
+  "uniqueid" : "00:17:88:5E:06:7E-7E"
+},
+{
+  "name" : "Ceiling Fan",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/ceiling_fan.pl 1 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/ceiling_fan.pl 1 0\",\"type\":\"cmdDevice\"}]",
+  "id" : "2049",
+  "uniqueid" : "00:17:88:5E:08:01-01"
+},
+{
+  "name" : "TV Lift",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/lift.pl 0 u\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/lift.pl 0 d\",\"type\":\"cmdDevice\"}]",
+  "id" : "2306",
+  "uniqueid" : "00:17:88:5E:09:02-02"
+},
+{
+  "name" : "Main Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 1 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 1 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 1 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "1",
+  "uniqueid" : "00:17:88:5E:00:01-01"
+},
+{
+  "name" : " Entry Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 2 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 2 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 2 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "2",
+  "uniqueid" : "00:17:88:5E:00:02-02"
+},
+{
+  "name" : "Passenger Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 3 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 3 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 3 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "3",
+  "uniqueid" : "00:17:88:5E:00:03-03"
+},
+{
+  "name" : "Driver Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 4 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 4 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 4 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "4",
+  "uniqueid" : "00:17:88:5E:00:04-04"
+},
+{
+  "name" : "Passenger Slide Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 6 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 6 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 6 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "6",
+  "uniqueid" : "00:17:88:5E:00:06-06"
+},
+{
+  "name" : "Front Sconce Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 7 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 7 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 7 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "7",
+  "uniqueid" : "00:17:88:5E:00:07-07"
+},
+{
+  "name" : "Driver Slide Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 8 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 8 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 8 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "8",
+  "uniqueid" : "00:17:88:5E:00:08-08"
+},
+{
+  "name" : "Front Courtesy Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 9 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 9 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 9 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "9",
+  "uniqueid" : "00:17:88:5E:00:09-09"
+},
+{
+  "name" : "Bedroom Courtesy Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 10 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 10 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 10 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "10",
+  "uniqueid" : "00:17:88:5E:00:0A-0A"
+},
+{
+  "name" : "Bedroom Sconce Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 11 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 11 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 11 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "11",
+  "uniqueid" : "00:17:88:5E:00:0B-0B"
+},
+{
+  "name" : "Bedroom Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 12 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 12 3\",\"type\":\"cmdDevice\"}]",
+  "dimUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 12 0 ${intensity.percent}\",\"type\":\"cmdDevice\"}]",
+  "id" : "12",
+  "uniqueid" : "00:17:88:5E:00:0C-0C"
+},
+{
+  "name" : "Rear Bath Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 13 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 13 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "13",
+  "uniqueid" : "00:17:88:5E:00:0D-0D"
+},
+{
+  "name" : "Task Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 14 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 14 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "14",
+  "uniqueid" : "00:17:88:5E:00:0E-0E"
+},
+{
+  "name" : "Mid Bath Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 15 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 15 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "15",
+  "uniqueid" : "00:17:88:5E:00:0F-0F"
+},
+{
+  "name" : "Mid Bath Vanity Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 16 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 16 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "16",
+  "uniqueid" : "00:17:88:5E:00:10-10"
+},
+{
+  "name" : "Rear Bath Vanity Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 17 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 17 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "17",
+  "uniqueid" : "00:17:88:5E:00:11-11"
+},
+{
+  "name" : " Accent 1 Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 19 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 19 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "19",
+  "uniqueid" : "00:17:88:5E:00:13-13"
+},
+{
+  "name" : " Accent 2 Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 20 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 20 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "20",
+  "uniqueid" : "00:17:88:5E:00:14-14"
+},
+{
+  "name" : "Bedroom Accent Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 21 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 21 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "21",
+  "uniqueid" : "00:17:88:5E:00:15-15"
+},
+{
+  "name" : "Closet Ceiling Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 28 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 28 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "28",
+  "uniqueid" : "00:17:88:5E:00:1C-1C"
+},
+{
+  "name" : " Awning Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 73 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 73 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "73",
+  "uniqueid" : "00:17:88:5E:00:49-49"
+},
+{
+  "name" : " Door Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 75 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 75 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "75",
+  "uniqueid" : "00:17:88:5E:00:4B-4B"
+},
+{
+  "name" : " Slide Box Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 76 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 76 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "76",
+  "uniqueid" : "00:17:88:5E:00:4C-4C"
+},
+{
+  "name" : " Undercoach Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 85 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 85 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "85",
+  "uniqueid" : "00:17:88:5E:00:55-55"
+},
+{
+  "name" : " Windshield Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 86 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 86 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "86",
+  "uniqueid" : "00:17:88:5E:00:56-56"
+},
+{
+  "name" : "Passenger Map Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 87 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 87 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "87",
+  "uniqueid" : "00:17:88:5E:00:57-57"
+},
+{
+  "name" : " Road Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 91 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 91 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "91",
+  "uniqueid" : "00:17:88:5E:00:5B-5B"
+},
+{
+  "name" : " Porch Light",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 92 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 92 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "92",
+  "uniqueid" : "00:17:88:5E:00:5C-5C"
+},
+{
+  "name" : "All Lights",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/master.pl 2 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 19 20 21 28 87\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/master.pl 0 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 19 20 21 28 87\",\"type\":\"cmdDevice\"}]",
+  "id" : "250",
+  "uniqueid" : "00:17:88:5E:00:FA-FA"
+},
+{
+  "name" : "Entry Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "273",
+  "uniqueid" : "00:17:88:5E:01:11-11"
+},
+{
+  "name" : "Cockpit Day Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "507",
+  "uniqueid" : "00:17:88:5E:01:FB-FB"
+},
+{
+  "name" : "Cockpit Night Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "763",
+  "uniqueid" : "00:17:88:5E:02:FB-FB"
+},
+{
+  "name" : "Cockpit Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "1019",
+  "uniqueid" : "00:17:88:5E:03:FB-FB"
+},
+{
+  "name" : "Toll Day Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 14\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 14\",\"type\":\"cmdDevice\"}]",
+  "id" : "270",
+  "uniqueid" : "00:17:88:5E:01:0E-0E"
+},
+{
+  "name" : "Toll Night Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 14\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 14\",\"type\":\"cmdDevice\"}]",
+  "id" : "526",
+  "uniqueid" : "00:17:88:5E:02:0E-0E"
+},
+{
+  "name" : "Toll Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 14\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 14\",\"type\":\"cmdDevice\"}]",
+  "id" : "782",
+  "uniqueid" : "00:17:88:5E:03:0E-0E"
+},
+{
+  "name" : "Driver Sofa Day Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 1\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 1\",\"type\":\"cmdDevice\"}]",
+  "id" : "257",
+  "uniqueid" : "00:17:88:5E:01:01-01"
+},
+{
+  "name" : "Driver Sofa Night Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 1\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 1\",\"type\":\"cmdDevice\"}]",
+  "id" : "513",
+  "uniqueid" : "00:17:88:5E:02:01-01"
+},
+{
+  "name" : "Driver Sofa Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 1\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 1\",\"type\":\"cmdDevice\"}]",
+  "id" : "769",
+  "uniqueid" : "00:17:88:5E:03:01-01"
+},
+{
+  "name" : "Dining Day Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 8\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 8\",\"type\":\"cmdDevice\"}]",
+  "id" : "264",
+  "uniqueid" : "00:17:88:5E:01:08-08"
+},
+{
+  "name" : "Dining Night Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 8\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 8\",\"type\":\"cmdDevice\"}]",
+  "id" : "520",
+  "uniqueid" : "00:17:88:5E:02:08-08"
+},
+{
+  "name" : "Dining Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 8\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 8\",\"type\":\"cmdDevice\"}]",
+  "id" : "776",
+  "uniqueid" : "00:17:88:5E:03:08-08"
+},
+{
+  "name" : "Passenger Day Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 16\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 16\",\"type\":\"cmdDevice\"}]",
+  "id" : "272",
+  "uniqueid" : "00:17:88:5E:01:10-10"
+},
+{
+  "name" : "Passenger Night Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 16\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 16\",\"type\":\"cmdDevice\"}]",
+  "id" : "528",
+  "uniqueid" : "00:17:88:5E:02:10-10"
+},
+{
+  "name" : "Passenger Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 16\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 16\",\"type\":\"cmdDevice\"}]",
+  "id" : "784",
+  "uniqueid" : "00:17:88:5E:03:10-10"
+},
+{
+  "name" : "Main Day Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 1 6 7 8\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 1 6 7 8\",\"type\":\"cmdDevice\"}]",
+  "id" : "508",
+  "uniqueid" : "00:17:88:5E:01:FC-FC"
+},
+{
+  "name" : "Main Night Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 1 6 7 8\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 1 6 7 8\",\"type\":\"cmdDevice\"}]",
+  "id" : "764",
+  "uniqueid" : "00:17:88:5E:02:FC-FC"
+},
+{
+  "name" : "Main Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 1 6 7 8\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 1 6 7 8\",\"type\":\"cmdDevice\"}]",
+  "id" : "1020",
+  "uniqueid" : "00:17:88:5E:03:FC-FC"
+},
+{
+  "name" : "Passenger Sofa Day Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 7\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 7\",\"type\":\"cmdDevice\"}]",
+  "id" : "263",
+  "uniqueid" : "00:17:88:5E:01:07-07"
+},
+{
+  "name" : "Passenger Sofa Night Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 7\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 7\",\"type\":\"cmdDevice\"}]",
+  "id" : "519",
+  "uniqueid" : "00:17:88:5E:02:07-07"
+},
+{
+  "name" : "Passenger Sofa Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 7\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 7\",\"type\":\"cmdDevice\"}]",
+  "id" : "775",
+  "uniqueid" : "00:17:88:5E:03:07-07"
+},
+{
+  "name" : "Windshield Day Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 15\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 15\",\"type\":\"cmdDevice\"}]",
+  "id" : "271",
+  "uniqueid" : "00:17:88:5E:01:0F-0F"
+},
+{
+  "name" : "Windshield Night Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 15\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 15\",\"type\":\"cmdDevice\"}]",
+  "id" : "527",
+  "uniqueid" : "00:17:88:5E:02:0F-0F"
+},
+{
+  "name" : "Windshield Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 15\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 15\",\"type\":\"cmdDevice\"}]",
+  "id" : "783",
+  "uniqueid" : "00:17:88:5E:03:0F-0F"
+},
+{
+  "name" : "All Day Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day down 1 6 7 8 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 day up 1 6 7 8 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "506",
+  "uniqueid" : "00:17:88:5E:01:FA-FA"
+},
+{
+  "name" : "All Night Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 1 6 7 8 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 1 6 7 8 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "762",
+  "uniqueid" : "00:17:88:5E:02:FA-FA"
+},
+{
+  "name" : "All Shades",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both down 1 6 7 8 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 both up 1 6 7 8 14 15 16 17\",\"type\":\"cmdDevice\"}]",
+  "id" : "1018",
+  "uniqueid" : "00:17:88:5E:03:FA-FA"
+},
+{
+  "name" : "Galley Shade",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night down 23\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl 2019 night up 23\",\"type\":\"cmdDevice\"}]",
+  "id" : "279",
+  "uniqueid" : "00:17:88:5E:01:17-17"
+},
+{
+  "name" : "Entry Door Awning",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl --duration=22 2019 day \",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/window_shade.pl --duration=22 2019 day up 5\",\"type\":\"cmdDevice\"}]",
+  "id" : "1029",
+  "uniqueid" : "00:17:88:5E:04:05-05"
+},
+{
+  "name" : "Kitchen Fan",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_fan_new.pl 2 25\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_fan_new.pl 3 25\",\"type\":\"cmdDevice\"}]",
+  "id" : "1305",
+  "uniqueid" : "00:17:88:5E:05:19-19"
+},
+{
+  "name" : "Kitchen Vent",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_lid.pl 69 26 27 \",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_lid.pl 133 26 27 \",\"type\":\"cmdDevice\"}]",
+  "id" : "1306",
+  "uniqueid" : "00:17:88:5E:05:1A-1A"
+},
+{
+  "name" : "Mid Bath Fan",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_fan_new.pl 2 29\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_fan_new.pl 3 29\",\"type\":\"cmdDevice\"}]",
+  "id" : "1309",
+  "uniqueid" : "00:17:88:5E:05:1D-1D"
+},
+{
+  "name" : "Mid Bath Vent",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_lid.pl 69 30 31 \",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_lid.pl 133 30 31 \",\"type\":\"cmdDevice\"}]",
+  "id" : "1310",
+  "uniqueid" : "00:17:88:5E:05:1E-1E"
+},
+{
+  "name" : "Rear Bath Fan",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_fan_new.pl 2 32\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_fan_new.pl 3 32\",\"type\":\"cmdDevice\"}]",
+  "id" : "1312",
+  "uniqueid" : "00:17:88:5E:05:20-20"
+},
+{
+  "name" : "Rear Bath Vent",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_lid.pl 69 33 34 \",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/vent_lid.pl 133 33 34 \",\"type\":\"cmdDevice\"}]",
+  "id" : "1313",
+  "uniqueid" : "00:17:88:5E:05:21-21"
+},
+{
+  "name" : "entry lock",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer_pair.pl --id 127 --reverse 128  --command 1 --duration 1\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer_pair.pl --id 128 --reverse 127  --command 1 --duration 1\",\"type\":\"cmdDevice\"}]",
+  "id" : "1920",
+  "uniqueid" : "00:17:88:5E:07:80-80"
+},
+{
+  "name" : "cargo lock",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer_pair.pl --id 123 --reverse 124  --command 1 --duration 1\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer_pair.pl --id 124 --reverse 123  --command 1 --duration 1\",\"type\":\"cmdDevice\"}]",
+  "id" : "1916",
+  "uniqueid" : "00:17:88:5E:07:7C-7C"
+},
+{
+  "name" : "all locks",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer_pair.pl --id 127 --reverse 128 --id 123 --reverse 124  --command 1 --duration 1\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer_pair.pl --id 128 --reverse 127 --id 124 --reverse 123  --command 1 --duration 1\",\"type\":\"cmdDevice\"}]",
+  "id" : "1792",
+  "uniqueid" : "00:17:88:5E:07:00-00"
+},
+{
+  "name" : "Water Pump",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 125 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 125 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "125",
+  "uniqueid" : "00:17:88:5E:00:7D-7D"
+},
+{
+  "name" : "Diesel Aquahot",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 130 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_dimmer.pl 130 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "130",
+  "uniqueid" : "00:17:88:5E:00:82-82"
+},
+{
+  "name" : "Electric Aquahot",
+  "onUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_ac_combo.pl 129 210 2\",\"type\":\"cmdDevice\"}]",
+  "offUrl" : "[{\"item\":\"/coachproxy/rv-c/dc_ac_combo.pl 129 210 3\",\"type\":\"cmdDevice\"}]",
+  "id" : "129",
+  "uniqueid" : "00:17:88:5E:00:81-81"
+}]

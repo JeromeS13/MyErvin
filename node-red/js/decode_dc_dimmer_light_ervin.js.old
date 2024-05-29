@@ -1,0 +1,98 @@
+//
+// Copyright (C) 2019 Wandertech LLC
+//
+// Modifications (C) 2020 Rob Picchione c/o The eRVin Project
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+// Also saves the on/off status and brightness into global 'status'
+// context for use by other nodes.
+//
+// Built-in RBE functionality only outputs messages if the value has
+// changed from the previously recorded value.
+//
+// Decodes MQTT node output for DIMMER and RELAY instances.
+// 
+// Compatible with with the 'command_dc_dimmer+relay_ervin' Function Node
+//
+// Input: the JSON output of DC_DIMMER_STATUS_3/# for a light.
+//
+// Two Msg Outputs:
+// Output 1: 'on' or 'dim' or 'off' payload to set toggle switch indicator.
+//           Topic output = 'nn_dimmer' where nn= the instance number
+//           Payload output = 'dim' or 'off'
+// Output 2: brightness level (0-100) to set optional slider value.
+//           Topic output = 'nn_dimmer' where nn= the instance number
+//           Payload output = brightness value 
+// 
+// Dashboard Node ON Payload = 'dim', OFF Payload = 'off'
+//
+//
+var instance = msg.payload.instance;
+var brightness = msg.payload['operating status (brightness)'];
+var commands = { 'dim': 0, 'on': 2, 'off': 3 };
+
+if (! context.global.dimmers) {
+  context.global.dimmers = {};
+}
+
+// Below was my first attempt at setting the value for the command variable based on the input 
+// from the MQTT node. It works, but apparently it is not good practice to assign variable values
+// within an if statement? - but not sure about that.
+// The following statement beginning with 'var command = (...' is the chosen alternative.
+// Is my severe lack of javascript knowledge showing? ;-)
+/*
+if (brightness === 100)
+	{
+	command = 'on';
+	}
+  else if (brightness > 0)
+	{
+	command = 'dim';
+	}
+  else if (brightness == 0)
+	{
+	command = 'off';
+	}
+*/
+// Below is the alternative to the above conditional statement. It tests for brightness = 100
+// if true command is set = 'on', if not it falls thru and tests for brightness > 0. If true it sets
+// command = 'dim', if not it falls thru and sets command = 'off'
+//
+var command = (brightness == 100) ? 'on' : (brightness > 0) ? 'dim' : 'off';
+var prev_dimmer = context.global.dimmers['dimmer_' + instance];
+var prev_brightness = context.global.dimmers['brightness_' + instance];
+
+
+// Only send a message if the value has changed. Adding this simple logic
+// here saves dozens of RBE nodes in the JSON flows file.
+if (prev_brightness != brightness) {
+  context.global.dimmers['dimmer_' + instance] = command;
+  context.global.dimmers['operating status (brightness) ' + instance] = brightness;
+  context.global.dimmers['scene_' + instance ] = instance + ' ' + commands[command] + ' ' + brightness;
+
+  
+  var msg1 = {
+      'topic': instance + "_dimmer",
+      'payload': command,
+  };
+
+  var msg2 = {
+      'topic': instance + "_brightness",
+      'payload': brightness,
+  };
+
+  return [ msg1, msg2 ];
+}
+

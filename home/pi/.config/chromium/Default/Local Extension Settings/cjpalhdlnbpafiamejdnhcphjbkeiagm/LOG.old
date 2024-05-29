@@ -1,0 +1,22 @@
+2021/02/11-17:19:09.039 217b Reusing MANIFEST /coachproxy/home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2021/02/11-17:19:09.041 217b Recovering log #11
+2021/02/11-17:19:09.359 217b Reusing old log /coachproxy/home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000011.log 
+2021/02/11-17:19:21.213 2145 Level-0 table #15: started
+2021/02/11-17:19:21.631 2145 Level-0 table #15: 2138668 bytes OK
+2021/02/11-17:19:21.644 2145 Delete type=0 #11
+2021/02/11-17:24:32.374 2145 Level-0 table #17: started
+2021/02/11-17:24:32.533 2145 Level-0 table #17: 1169163 bytes OK
+2021/02/11-17:24:32.542 2145 Delete type=0 #14
+2021/02/11-17:24:32.547 2159 Compacting 4@0 + 1@1 files
+2021/02/11-17:24:33.204 2159 Generated table #18@0: 20 keys, 2735490 bytes
+2021/02/11-17:24:33.534 2159 Generated table #19@0: 25 keys, 1073246 bytes
+2021/02/11-17:24:33.534 2159 Compacted 4@0 + 1@1 files => 3808736 bytes
+2021/02/11-17:24:33.540 2159 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/02/11-17:24:33.541 2159 Delete type=2 #17
+2021/02/11-17:24:33.541 2159 Delete type=2 #12
+2021/02/11-17:24:33.541 2159 Delete type=2 #15
+2021/02/11-17:24:33.541 2159 Delete type=2 #10
+2021/02/11-17:24:33.541 2159 Delete type=2 #8
+2021/02/11-17:29:36.105 2159 Level-0 table #21: started
+2021/02/11-17:29:36.466 2159 Level-0 table #21: 2729668 bytes OK
+2021/02/11-17:29:36.477 2159 Delete type=0 #16

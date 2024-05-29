@@ -1,0 +1,8 @@
+2021/02/11-17:41:36.951 176c Reusing MANIFEST /coachproxy/home/pi/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/11-17:41:36.953 176c Recovering log #10
+2021/02/11-17:41:36.954 176c Reusing old log /coachproxy/home/pi/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000010.log 
+2021/02/11-17:41:38.990 170b Level-0 table #14: started
+2021/02/11-17:41:38.991 170b Level-0 table #14: 0 bytes OK
+2021/02/11-17:41:39.000 170b Delete type=0 #10
+2021/02/11-17:41:39.001 170b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/11-17:41:39.001 170b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

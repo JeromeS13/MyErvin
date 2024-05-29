@@ -1,0 +1,67 @@
+//
+// Copyright (C) 2019 Wandertech LLC
+//
+// Modifications (C) 2020 Rob Picchione c/o The ERVIN Project
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+// Also saves the on/off status and brightness into global 'status'
+// context for use by other nodes.
+//
+// Built-in RBE functionality only outputs messages if the value has
+// changed from the previously recorded value.
+//
+//
+// Decodes MQTT node output for RELAY instances.
+// Use the DIMMER decoder (decode_dc_dimmer_light_ervin) for non-dimmable instances.
+// 
+// Compatible with with the 'command_dc_dimmer+relay_ervin' Function Node
+//
+// Input: the JSON output of DC_DIMMER_STATUS_3/# for a light.
+//
+// One Msg Output:
+// Output 1: "on" or "off" payload to set toggle switch indicator.
+//           Topic output = 'nn_dimmer' where nn= the instance number
+//           Payload output = '2' (on) or '3' (off)
+// 
+// Set Dashboard Node ON Payload ='on', OFF Payload = 'off'
+//
+//
+let instance = msg.payload.instance
+let brightness = msg.payload['operating status (brightness)'];
+let commands = { 'dim':0, 'on': 2, 'off': 3 };
+
+if (! context.global.dimmers) {
+  context.global.dimmers = {};
+}
+
+let command = (brightness > 0) ? 'on' : 'off';
+let prev_dimmer = context.global.dimmers['relay_' + instance];
+let prev_brightness = context.global.dimmers['brightness_' + instance];
+
+
+// Only send a message if the value has changed. Adding this simple logic
+// here saves dozens of RBE nodes in the JSON flows file.
+if (prev_dimmer != brightness) {
+  context.global.dimmers['relay_' + instance] = command;
+  context.global.dimmers['operating status (brightness)' + instance] = brightness;
+  context.global.dimmers['scene_' + instance ] = instance + ' ' + commands[command]
+
+  var msg1 = {
+      'topic': instance + "_relay",
+      'payload': command,
+  };
+
+  return [ msg1 ];
+}

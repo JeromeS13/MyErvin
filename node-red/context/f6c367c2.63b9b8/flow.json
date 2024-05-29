@@ -1,0 +1,27 @@
+{
+    "lpg": "false",
+    "tstats": "false",
+    "exttemp": "false",
+    "gencontrol": "true",
+    "ats": "false",
+    "batt_chassis": "true",
+    "year": "2017",
+    "tvlift": "false",
+    "ceilfan": "true",
+    "aquahot": "true",
+    "thirdtstat": "false",
+    "secondfurnace": "false",
+    "rearheat": "false",
+    "midheat": "false",
+    "busundercoach": "true",
+    "powerbed": "false",
+    "shades_interior": "false",
+    "model": "Allegro_Bus",
+    "floorplan": "45_OP",
+    "floorheat": "false",
+    "pw": {
+        "epw": "ervin1",
+        "cpw": "ervin2"
+    },
+    "filecount": 11
+}

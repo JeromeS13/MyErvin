@@ -1,0 +1,4 @@
+[Added Associations]
+application/octet-stream=leafpad.desktop;vim.desktop;
+application/x-shellscript=leafpad.desktop;
+application/x-trash=leafpad.desktop;
