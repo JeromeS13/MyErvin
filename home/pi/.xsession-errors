@@ -1,4 +1,4 @@
-Xsession: X session started for pi at Tue 28 May 2024 08:53:10 PM PDT
+Xsession: X session started for pi at Sat 01 Jun 2024 07:21:43 PM PDT
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/coachproxy/home/pi/.Xauthority
@@ -28,7 +28,7 @@ dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
 dbus-update-activation-environment: setting PWD=/coachproxy/home/pi
-** Message: 20:53:11.517: main.vala:101: Session is LXDE-pi
-** Message: 20:53:11.517: main.vala:102: DE is LXDE
-** Message: 20:53:11.826: main.vala:133: log directory: /coachproxy/home/pi/.cache/lxsession/LXDE-pi
-** Message: 20:53:11.826: main.vala:134: log path: /coachproxy/home/pi/.cache/lxsession/LXDE-pi/run.log
+** Message: 19:21:44.244: main.vala:101: Session is LXDE-pi
+** Message: 19:21:44.244: main.vala:102: DE is LXDE
+** Message: 19:21:44.533: main.vala:133: log directory: /coachproxy/home/pi/.cache/lxsession/LXDE-pi
+** Message: 19:21:44.533: main.vala:134: log path: /coachproxy/home/pi/.cache/lxsession/LXDE-pi/run.log

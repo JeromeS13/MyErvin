@@ -1145,20 +1145,58 @@
             }
         }
     },
-    "node-red-contrib-credentials": {
-        "name": "node-red-contrib-credentials",
-        "version": "0.2.1",
+    "node-red-contrib-socketcan": {
+        "name": "node-red-contrib-socketcan",
+        "version": "1.2.9",
         "local": false,
         "nodes": {
-            "credent": {
-                "name": "credent",
+            "cansend": {
+                "name": "cansend",
                 "types": [
-                    "credentials"
+                    "socketcan-in"
                 ],
                 "enabled": true,
                 "local": true,
-                "module": "node-red-contrib-credentials",
-                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-credentials/credentials/credentials.js"
+                "module": "node-red-contrib-socketcan",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-socketcan/src/send.js"
+            },
+            "canreceive": {
+                "name": "canreceive",
+                "types": [
+                    "socketcan-out"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-socketcan",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-socketcan/src/receive.js"
+            },
+            "canconfig": {
+                "name": "canconfig",
+                "types": [
+                    "socketcan-config"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-socketcan",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-socketcan/src/config.js"
+            }
+        }
+    },
+    "node-red-contrib-flogger": {
+        "name": "node-red-contrib-flogger",
+        "version": "1.2.2",
+        "local": false,
+        "nodes": {
+            "flogger": {
+                "name": "flogger",
+                "types": [
+                    "config-log",
+                    "flogger"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-flogger",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-flogger/flogger.js"
             }
         }
     }

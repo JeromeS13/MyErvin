@@ -1144,5 +1144,60 @@
                 "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-better-sftp/transports/sftp/index.js"
             }
         }
+    },
+    "node-red-contrib-socketcan": {
+        "name": "node-red-contrib-socketcan",
+        "version": "1.2.9",
+        "local": true,
+        "nodes": {
+            "cansend": {
+                "name": "cansend",
+                "types": [
+                    "socketcan-in"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-socketcan",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-socketcan/src/send.js"
+            },
+            "canreceive": {
+                "name": "canreceive",
+                "types": [
+                    "socketcan-out"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-socketcan",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-socketcan/src/receive.js"
+            },
+            "canconfig": {
+                "name": "canconfig",
+                "types": [
+                    "socketcan-config"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-socketcan",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-socketcan/src/config.js"
+            }
+        }
+    },
+    "node-red-contrib-flogger": {
+        "name": "node-red-contrib-flogger",
+        "version": "1.2.2",
+        "local": true,
+        "nodes": {
+            "flogger": {
+                "name": "flogger",
+                "types": [
+                    "config-log",
+                    "flogger"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-flogger",
+                "file": "/coachproxy/home/pi/.node-red/node_modules/node-red-contrib-flogger/flogger.js"
+            }
+        }
     }
 }

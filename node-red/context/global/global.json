@@ -4,12 +4,13 @@
     "lat": 30.288702,
     "scenename": [],
     "genstartenabletimer": 5,
-    "genStatTime": 0,
+    "genStatTime": 1717542452.61,
     "status": {
         "power": {
-            "house_battery_volts": 13.2,
+            "chassis_battery_soc": 47,
+            "generator_state": "stopped",
             "ac_source": "Shore",
-            "generator_state": "stopped"
+            "house_battery_volts": 13.1
         },
         "fans": {},
         "vents": {},
@@ -23,8 +24,8 @@
                 "brightness": 0
             },
             "3": {
-                "state": "off",
-                "brightness": 0
+                "state": "on",
+                "brightness": 100
             },
             "4": {
                 "state": "off",
@@ -874,7 +875,7 @@
                 "STATE": "COMPLETED",
                 "MAC": "d8:3a:dd:c4:46:3a",
                 "GW": "192.168.50.1",
-                "QUALITY": "100"
+                "QUALITY": "95"
             },
             "AP": {}
         },
@@ -904,23 +905,23 @@
     },
     "form": {
         "preset": {},
-        "notif_type": null,
-        "notif_test": "is above",
-        "notif_value": "",
         "ngrok_auth": "",
         "remote_username": "",
         "remote_password": "",
         "remote_subdomain": "",
         "pushover_key": "",
-        "notify_email1": "",
+        "notify_email1": "7062189366@tmomail.net",
         "notify_email2": "",
-        "smtp_host": "",
-        "smtp_port": "",
-        "smtp_user": "",
-        "smtp_password": ""
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": "465",
+        "smtp_user": "JeromeS13@gmail.com",
+        "smtp_password": "eehmricopiibxzvs",
+        "notif_type": null,
+        "notif_test": "is above",
+        "notif_value": ""
     },
     "settings2": {
-        "notify_email1": "",
+        "notify_email1": "7062189366@tmomail.net",
         "notify_email2": "",
         "pushover_key": "",
         "remote_username": "",
@@ -929,49 +930,17 @@
         "auto_update": "true",
         "tstat_first_zone": "2",
         "generator_version": "2",
-        "smtp_host": "",
-        "smtp_port": "",
-        "smtp_user": "",
-        "smtp_password": "",
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": "465",
+        "smtp_user": "JeromeS13@gmail.com",
+        "smtp_password": "eehmricopiibxzvs",
         "notify_rules": [
             {
                 "notif_type": "Batt: House",
                 "notif_test": "is below",
-                "notif_value": "12.2",
+                "notif_value": "12.9",
                 "notif_unit": "V",
-                "notif_testval": "< 12.2V"
-            },
-            {
-                "notif_type": "Batt: House",
-                "notif_test": "is above",
-                "notif_value": "14.5",
-                "notif_unit": "V",
-                "notif_testval": "> 14.5V"
-            },
-            {
-                "notif_type": "Tank: Black",
-                "notif_test": "is above",
-                "notif_value": "85",
-                "notif_unit": "%",
-                "notif_testval": "> 85%",
-                "notif_status": "cleared",
-                "fault_time": 1716957748290
-            },
-            {
-                "notif_type": "Tank: Fresh",
-                "notif_test": "is below",
-                "notif_value": "25",
-                "notif_unit": "%",
-                "notif_status": "cleared",
-                "notif_testval": "< 25%"
-            },
-            {
-                "notif_type": "Tank: Grey",
-                "notif_test": "is above",
-                "notif_value": "85",
-                "notif_unit": "%",
-                "notif_testval": "> 85%",
-                "notif_status": "cleared"
+                "notif_testval": "< 12.9V"
             }
         ]
     },
